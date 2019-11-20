@@ -1,0 +1,43 @@
+.homepage {
+  display: flex;
+  background-color: $site-black;
+  justify-content: center;
+  height: auto;
+  .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: $site-black;
+    width: 60vw;
+    text-align: center;
+    background-color: $site-gray;
+    .profile-pic {
+      background-image: url(../assets/images/profile_pic.jpg);
+      background-size: cover;
+      border-radius: 100px;
+      height: 200px;
+      width: 200px;
+    }
+    h2 {
+      padding: 15px;
+    }
+    li {
+      padding: 10px;
+      font-weight: 500;
+    }
+    ul {
+      h3 {
+        text-align: left;
+      }
+    }
+    .information {
+      display: flex;
+      .edu-box,
+      .exp-box {
+        border: 1px solid $site-gold;
+        margin: 5px;
+        padding: 5px;
+      }
+    }
+  }
+}
