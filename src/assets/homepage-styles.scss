@@ -1,6 +1,9 @@
 .homepage {
+  padding-top: 87.88px;
   display: flex;
-  background-color: $site-black;
+  background-image: url(../assets/images/coding.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
   justify-content: center;
   height: auto;
   .content {
@@ -8,7 +11,7 @@
     flex-direction: column;
     align-items: center;
     color: $site-black;
-    width: 60vw;
+    width: 65vw;
     text-align: center;
     background-color: $site-gray;
     .profile-pic {
@@ -34,9 +37,17 @@
       display: flex;
       .edu-box,
       .exp-box {
-        border: 1px solid $site-gold;
+        border: 2px solid $site-gold;
         margin: 5px;
-        padding: 5px;
+        padding: 10px;
+      }
+      .edu-box {
+        padding-bottom: 37px;
+      }
+      .exp-box {
+        p {
+          width: 700px;
+        }
       }
     }
   }

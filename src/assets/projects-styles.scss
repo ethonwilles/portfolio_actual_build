@@ -1,0 +1,64 @@
+@mixin card($url) {
+  background-image: $url;
+  background-size: cover;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  border: 1.5px solid $site-gold;
+  text-align: center;
+  transition: 0.1s ease-in-out;
+  text-decoration: none;
+  color: black;
+  ul {
+    padding: 0px;
+    margin: 0;
+  }
+  h5 {
+    margin: 0;
+    visibility: hidden;
+  }
+  h4 {
+    margin: 7px;
+    color: $site-black;
+  }
+
+  &:hover {
+    box-shadow: 0px 0px 10px 2px black;
+    h5 {
+      visibility: visible;
+    }
+  }
+}
+
+.projects-page {
+  padding-top: 87.88px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+
+  .one {
+    @include card("none");
+  }
+  .two {
+    @include card("none");
+  }
+  .three {
+    @include card("none");
+  }
+  .four {
+    @include card("none");
+  }
+}
+.project-card {
+  width: 200px;
+  height: 350px;
+  margin: 20px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 25px;
+  img {
+    width: 120px;
+    height: 100px;
+  }
+}
