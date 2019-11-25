@@ -7,11 +7,11 @@ const Home = () => {
         <h1>About Me</h1>
         <div className="profile-pic"></div>
         <h2>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis
-          et iste, nesciunt veritatis hic nulla facilis fugit ipsum aperiam quae
-          ex, rem laudantium officia nostrum quod sunt perferendis pariatur est
-          temporibus ut. Vel distinctio nisi, numquam modi autem voluptates
-          cupiditate.
+          Software Developer with a passion for solving company problems. Uses
+          multiple programming languages to increase company profits through
+          creative thinking and abstract problem solving. Experience managing
+          people and working through interpersonal conflicts. Efficient,
+          organized, and effective time manager.
         </h2>
         <div className="information">
           <div className="education">
