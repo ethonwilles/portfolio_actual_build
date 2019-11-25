@@ -2,6 +2,7 @@
   background-image: $url;
   background-size: cover;
   background-repeat: no-repeat;
+  background-color: white;
   cursor: pointer;
   border: 1.5px solid $site-gold;
   text-align: center;
@@ -33,7 +34,8 @@
   padding-top: 87.88px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-
+  background-color: #e0e0e0;
+  height: 90vh;
   .one {
     @include card("none");
   }
