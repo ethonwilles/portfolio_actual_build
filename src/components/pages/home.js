@@ -4,14 +4,16 @@ const Home = () => {
   return (
     <div className="homepage">
       <div className="content">
-        <h1>About Me</h1>
         <div className="profile-pic"></div>
+        <h1 className="abt">About Me</h1>
+
         <h2>
           Software Developer with a passion for solving company problems. Uses
           multiple programming languages to increase company profits through
           creative thinking and abstract problem solving. Experience managing
           people and working through interpersonal conflicts. Efficient,
-          organized, and effective time manager.
+          organized, and effective time manager. Also, not very good at UI/UX,
+          as seen by portfolio site!
         </h2>
         <div className="information">
           <div className="education">
