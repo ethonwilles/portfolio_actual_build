@@ -1,0 +1,28 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  width: 55%;
+  padding: 15px;
+  height: 5vh;
+  flex: inherit;
+  a {
+    text-decoration: none;
+    font-size: 36px;
+    color: white;
+    font-family: "Segoe UI", sans-serif;
+    width: 200px;
+    text-align: center;
+    transition: ease-in-out 0.18s;
+    &:hover {
+      letter-spacing: 1.5px;
+      border-bottom: 1.5px solid $site-gold;
+    }
+  }
+  img {
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+    border: 1.5px solid $site-gold;
+    object-fit: cover;
+  }
+}
