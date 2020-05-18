@@ -8,7 +8,7 @@ const Home = () => {
       <div className="content">
         <div className="content-p">
           <p>
-            <span>Industry leading smile.</span>
+            <span>A calligrapher of Code.</span>
             <span>Your next star developer,</span>
             <span>Found Here.</span>
           </p>
