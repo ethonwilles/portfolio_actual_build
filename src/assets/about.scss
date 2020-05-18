@@ -1,0 +1,31 @@
+.abt {
+  height: auto;
+}
+.abt-content {
+  background-color: white;
+  height: auto;
+  width: 50vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 20px;
+  p {
+    font-weight: 600;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    span {
+      padding: 20px 0px;
+    }
+  }
+  img {
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+    border: 1.5px solid $site-gold;
+    object-fit: cover;
+  }
+}
