@@ -1,5 +1,10 @@
 @media (max-height: 650px) {
   .home {
     height: auto;
+    .content-p {
+      p {
+        font-size: 70px;
+      }
+    }
   }
 }
