@@ -18,7 +18,7 @@ const Exp = () => {
               setCheck(true);
             }}
             style={
-              check ? { backgroundColor: "#393e41" } : null
+              check ? { backgroundColor: "white" } : null
             }
           >
             Experience
@@ -29,7 +29,7 @@ const Exp = () => {
             }}
             style={
               check === false
-                ? { backgroundColor: "#393e41" }
+                ? { backgroundColor: "white" }
                 : null
             }
           >
